@@ -1,0 +1,27 @@
+.club {
+background-color: orangered;
+color: black;
+}
+
+.headborder{
+    border: solid 13px;
+    margin: 5px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    margin:7px;
+    font-size: 250%;
+}
+.buttons {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    font-size: 150%;
+    
+    
+    
+    
+
+} 
