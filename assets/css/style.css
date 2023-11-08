@@ -15,7 +15,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     justify-content: center;
     margin:7px;
-    font-size: 250%;
+    font-size: 350%;
 }
 .buttons {
     display: flex;
@@ -69,9 +69,16 @@ p {
 
 #pro {
    margin-bottom: 50px;
-   margin-left: 50px;
+   margin-left: 13%;
+   font-size: 250%;
+   display:block;
    
     
+}
+
+.alpha-header {
+    margin-left: 27.5% ;
+
 }
 
 .alpha {
@@ -79,12 +86,19 @@ p {
     width: 400px;
     height: 400px;
     background-color: aliceblue;
-    display:inline
+    display:block;
+    margin-left: 27.5%;
+    
+   
+    
 }
 
 .second {
     border: solid 7px;
     width: 400px;
     height: 400px;
-    display:inline
+    
+   
 }
+
+
