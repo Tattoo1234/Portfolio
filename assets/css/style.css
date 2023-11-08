@@ -114,9 +114,13 @@ footer {
     display:block;
     padding: 15px;
     margin: 55px;
-    font-size: 200%;
-    
-    
+    font-size: 200%;   
 }
+
+@media screen and (max-width: 768px) {
+    .aboutborder {
+      width: 100%
+    }
+  }
 
 
