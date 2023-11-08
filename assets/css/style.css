@@ -33,6 +33,13 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
     
 }
+
+.bear:hover {
+    outline: solid;
+    outline-color: turquoise;
+    transition: all 0.5s ease-in-out;
+    border-radius: 2%;
+}
     
 
 
