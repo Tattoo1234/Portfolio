@@ -76,30 +76,37 @@ p {
     
 }
 
-.alpha-header {
-    margin-left: 27.5% ;
-
-}
-
 .alpha {
     border: solid 7px;
-    width: 400px;
-    height: 400px;
+    width: 100%;
     background-color: aliceblue;
     display:block;
-    margin-left: 27.5%;
-    
-    
-    
-   
-    
 }
 
 .second {
     border: solid 7px;
-    width: 400px;
-    height: 400px;
+    width: 100%;
     display:inline;
+}
+
+.project-second, .project-alpha {
+
+    display: inline-table;
+    width: 45%;
+}
+
+.project-second {
+    margin-left: 4.7%;
+}
+
+.project-alpha {
+    margin-right: 4.8%;
+}
+
+
+.project-group {
+    width: 45%;
+    margin: auto;
 }
 
 footer {
