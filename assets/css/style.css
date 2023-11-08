@@ -25,10 +25,13 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .bear {
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 30%;
+    margin-right: auto;
+    
+    
 }
     
 
@@ -52,27 +55,36 @@ p {
 }
 
 #biggie {
-    width: 50%;
+    width: 45%;
     height: 25%;
-    display: flex;
-    justify-content:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 
     
    
 }
 
-/* .bigone {
-    border: solid;
-    display:flex;
-    justify-content: center;
-    margin: 5% 25%
-    
-} */
 
 #pro {
-   display:flex;
-   position: absolute;
+   margin-bottom: 50px;
+   margin-left: 50px;
    
     
+}
+
+.alpha {
+    border: solid 7px;
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    display:inline
+}
+
+.second {
+    border: solid 7px;
+    width: 400px;
+    height: 400px;
+    display:inline
 }
