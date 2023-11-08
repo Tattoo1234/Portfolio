@@ -1,3 +1,4 @@
+/* Webpage Colors and Font */
 .club {
 background-color: orangered;
 color: black;
@@ -5,18 +6,22 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
+/* Top of Page Box Border, Contents are Name/Job Title/Navigation Buttons/Profile Pic/Bear Image */
 .headborder{
     border: solid 13px;
     margin: 5px;
     border-radius: 0 30px;
 }
 
+/* My Name, size, positioned in center */
 .name {
     display: flex;
     justify-content: center;
     margin:7px;
     font-size: 350%;
 }
+
+/* Navigation Buttons spaced evenly */
 .buttons {
     display: flex;
     justify-content: space-evenly;
@@ -24,6 +29,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 150%; 
 }
 
+/* Bear Image size and position */
 .bear {
     width: 200px;
     height: 200px;
@@ -34,15 +40,16 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
 
+/* Hover effect and outline of Bear Image*/
 .bear:hover {
     outline: solid;
     outline-color: turquoise;
-    transition: all 0.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
     border-radius: 2%;
 }
     
 
-
+/* Border around "About Me" <h2> and Paragraph */
 .aboutborder {
     border: dotted 7px;
     margin-right: 66%;
@@ -52,19 +59,22 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
 }
 
-
+/* <h2> Font Size */
 h2 {
     font-size: 175%
 }
 
+/* <p> font size */
 p {
     font-size: 125%;
 }
 
+/* Main/Large Project Header */
 .Horiseon-Header {
     margin-left: 27.5%;
 }
 
+/* Main/Large Project Image Size and Positioning */
 #biggie {
     width: 45%;
     height: 25%;
@@ -73,7 +83,7 @@ p {
     margin-right: auto;
 }
 
-
+/* Projects Section Header */
 #pro {
    margin-bottom: 50px;
    margin-left: 13%;
@@ -83,6 +93,7 @@ p {
     
 }
 
+/* Project Alpha Size and Position */
 .alpha {
     border: solid 7px;
     width: 100%;
@@ -90,32 +101,37 @@ p {
     display:block;
 }
 
+/* Project Second Size and Position */
 .second {
     border: solid 7px;
     width: 100%;
     display:inline;
 }
 
+/* Additional Positioning for Project Alpha and Project Second */
 .project-second, .project-alpha {
 
     display: inline-table;
     width: 45%;
 }
 
+/* Additional Positioning for Project Second */
 .project-second {
     margin-left: 4.7%;
 }
 
+/* Additional Positioning for Project Alpha */
 .project-alpha {
     margin-right: 4.8%;
 }
 
-
+/* Positioning for PlaceHolder Projects (Alpha and Second) */
 .project-group {
     width: 45%;
     margin: auto;
 }
 
+/* Footer Parameters and Position */
 footer {
     border: solid 7px;
     display:block;
@@ -124,12 +140,14 @@ footer {
     font-size: 200%;   
 }
 
+/* Responsive Element for About Me Section */
 @media screen and (max-width: 768px) {
     .aboutborder {
       width: 100%
     }
   }
 
+  /* Responsive Element for Project Second */
 @media screen and (max-width: 768px) {
     .project-second {
       margin-left: 3%
